@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+.card {
+  position: relative;
+  margin: 1px;
+  cursor: pointer;
+}
+
+/****span****/
+.discounted-price {
+  /*
+  color: red;
+}
+
+.price { /*
+  text-decoration: line-through;
+}
+
+.brands {
+  font-size: small;
+}
+
+/***p**/
+
+  p {
+    /*
+  font-weight: bold;
+}
+
+/*cards*/
+
+    .card.discount {
+      /*
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
+
+.card.sustainability {
+  background-color: green;
+  color: white
+}
+
+.card .hearts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 10px;
+}
