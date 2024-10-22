@@ -4,19 +4,24 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: red;
+}
+
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 50px auto;
-  background-color: grey;
-  max-width: 100%
+  background-color: lightgrey;
+  max-width: 1400px;
 }
 
 .card {
   position: relative;
   margin: 1px;
   cursor: pointer;
+  width: 33%;
 }
 
 /****span****/
@@ -29,37 +34,4 @@
   text-decoration: line-through;
 }
 
-.brands {
-  font-size: small;
-}
-
-/***p**/
-
-  p {
-    /*
-  font-weight: bold;
-}
-
-/*cards*/
-
-    .card.discount {
-      /*
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: red;
-  color: white;
-  padding: 5px 10px;
-}
-
-.card.sustainability {
-  background-color: green;
-  color: white
-}
-
-.card .hearts {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 5px 10px;
 }
