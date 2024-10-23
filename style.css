@@ -30,7 +30,6 @@ body {
   text-align: right;
 }
 
-
 /*****HEADER*****/
 
 header {
@@ -77,4 +76,95 @@ header nav {
 
 header .container {
   padding: 0 10px;
+}
+
+/****main****/
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.colonne {
+  width: 33%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+main {
+  padding-top: 150px;
+}
+
+main .colonne {
+  width: calc(100% / 3);
+  padding: 0 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card .card-images {
+  position: relative;
+  cursor: pointer;
+}
+
+.card .card-images .secondary-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.card .card-images:hover .secondary-image {
+  display: block;
+}
+
+.card .card-images .hearts {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: white;
+  padding: 20px 15px;
+}
+
+.card .card-images .hearts:hover {
+  color: red;
+}
+
+.card .card-images .badges {
+  position: absolute;
+  left: 0;
+  bottom: 90px;
+}
+
+.card .card-images .badges .badge {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.card .card-images .badges .badge.tag {
+  background-color: green;
+}
+
+.card .product-name {
+  font-weight: bold;
+}
+
+.card .prices span {
+  font-weight: bold;
+  color: red;
 }
