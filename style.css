@@ -8,121 +8,49 @@ body {
   font-family: "Roboto";
 }
 
+/*****HEADER*****/
 header {
-  height: 40px;
-  background-color: rgb(254, 105, 0);
-  ;
-}
-
-.container-top {
+  position: fixed;
   width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.col {
-  background-color: rgb(254, 105, 0);
-}
-
-header .container-top {
-  height: 100%;
-}
-
-
-.row {
-  display: flex;
-}
-
-header .navbar .row {
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-p {
-  color: white;
-}
-
-.Booleando img {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icons {
-  color: white;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end
-}
-
-
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 50px auto;
-  max-width: 1400px;
-}
-
-.card {
-  position: relative;
-  margin: 1px;
-  cursor: pointer;
-  width: 33%;
-}
-
-.card img {
-  width: 100%;
-  padding: 5px;
-}
-
-
-.sustainability {
-  background-color: green;
-  color: white;
-  position: absolute;
-  bottom: 150px;
-  left: 70px;
-  padding: 5px 10px;
-}
-
-.sustainability-diff {
-  background-color: green;
-  color: white;
-  position: absolute;
-  bottom: 150px;
-  left: 10px;
-  padding: 5px 10px;
-}
-
-
-.card .hearts {
-  position: absolute;
   top: 0;
   left: 0;
-  padding: 5px 10px;
+  background-color: orangered;
+  height: 80px;
+  z-index: 999;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, .5);
 }
 
-.discount {
-  position: absolute;
-  bottom: 150px;
-  left: 10px;
-  background-color: red;
-  padding: 5px 10px;
+header .container {
+  padding: 0 10px;
+}
+
+header .logo {
+  width: 150px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header .main-menu li {
+  margin-right: 15px;
+}
+
+header ul li a {
   color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
-.discounted-price {
-
-  color: red;
+header nav {
+  width: 30%;
 }
 
-.price {
-  text-decoration: line-through;
-}
-
-.brands {
-  font-size: medium;
+header .container {
+  padding: 0 10px;
 }
